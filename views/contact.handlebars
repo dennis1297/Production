@@ -1,0 +1,95 @@
+ <link rel="stylesheet" href="/contacts.css">
+<title>Contact</title>
+<meta name="description" content="Plan smarter, collaborate better and ship faster with a set of 
+modern development and Information services.Think OpsEazy, we help to achieve DevOps Services">
+</head>
+<body>
+ 
+ <section class="section-contact">
+     {{>header}}
+     
+        <div class="container contact">
+
+            <div class="box">
+                <h1 class="slider-fs">A Project With Us</h1>
+                <form  action ="/send-email" method="POST" >
+                    <div>
+                        <input type="text" name="name" required="">
+                        <label class="primary-size">Name</label>
+                    </div>
+                    <div>
+                        <input type="text" name="companyname" required="">
+                        <label class="primary-size">Company Name</label>
+                    </div>
+                    <div>
+                        <input type="text" name="companyindustry" required="">
+                        <label class="primary-size">Company Industry</label>
+                    </div>
+                    <div>
+                        <input type="text" name="email" required="">
+                        <label class="primary-size">Email</label>
+                    </div>
+                    <div>
+                        <input type="text" name="mobilenumber" required="">
+                        <label class="primary-size">Mobile Number</label>
+                    </div>
+                    <div class="textarea">
+                        <p class="primary-size">Comments</p>
+                        <textarea name="comments"></textarea>
+                    </div>
+                    <a href="#"><button class="sub-btn primary-size">Submit</button></a>
+                </form>
+            </div>
+        
+
+            <div class="box-2">
+                <div class="slider-fs">Contact Us</div>
+                <div class="addres-row">
+                    <div class="first-row">
+                        <p class="sub-bsz">INDIA</p>
+                        <address>
+                            F2/89,200 Feet Road,<br>
+                            Kovilambakkam,<br>
+                            Chennai -600117.<br>
+                            Email: info@opseazy.com<br>
+                            Mobile: +91 8681070809<br>
+                        </address>
+                    </div>
+                    <div class="second-row">
+                        <p class="sub-bsz">UAE</p>
+                        <address>
+                            P.O.Box: 27589, M-40,<br>
+                            AI Jazeera Towers,<br>
+                            Hamdan Street,<br>
+                            Abu-Dhabi, UAE.<br>
+                            Email: info@opseazy.com<br>
+                        </address>
+                    </div>
+                    <div class="second-row">
+                        <p class="sub-bsz">AFRICA</p>
+                        <address>
+                            P.O.Box: DTD 84,<br>
+                            Nii Bonnie Street,<br>
+                            Dzorwulu,<br>
+                            Accra, Ghana.<br>
+                            Email: info@opseazy.com<br>
+                        </address>
+                    </div>
+                </div>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.313076561676!2d80.19023395860323!3d12.951807391354242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c2d6c787825%3A0x9e0f168f57e71191!2sOpsEazy!5e0!3m2!1sen!2sin!4v1582374611655!5m2!1sen!2sin"></iframe>
+                <div class="h4sm follow">Follow</div>
+                <div class="social-link">
+                    <a href="https://www.facebook.com/opseazy/"alt="Opseazy facebook page"><img src="fb.png"></a>
+                    <a href="https://www.twitter.com/opseazy/" alt="Opseazy twitter page"><img src="twitter.png"></a>
+                    <a href="https://www.instagram.com/Ops.eazy/" alt="Opseazy instagram page"><img class="instagram" src="instagram.png" width="63px" height="63px"></a>
+                    <a href="https://www.linkedin.com/company/opseazy"alt="Opseazy linkedin page"><img src="linkedin.png"></a>
+                    <a href="https://www.youtube.com/channel/UCy2bWggvELmHIYnSFxPv-EQ" alt="Opseazy youtube page"><img src="youtube.png"></a>
+                    <a href="#"><img src="glasdor-icon.png"></a>
+                </div>
+            </div>
+        </div>
+ </section>    
+   {{>footer}}
+  
+</body>   
+

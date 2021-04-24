@@ -1,0 +1,137 @@
+<link rel="stylesheet" href="/expertise.css">
+<meta name="description" content="">
+
+{{log this}}
+<title>{{title}}</title>
+</head>
+<body>
+    
+    <section class="servicecont">
+        {{>header}}
+            <section class="sec-1">
+                <div class="services-page">
+                    <div class="services-title">
+                        <div class="servicetop">  
+                            <h1 class="h2bold">{{serveData.title}}</h1>
+                            <h2 class="h3regular">{{serveData.Introductions}}</h2>
+                        </div>
+                        <img src={{serveData.images}} style="width:600px;height:300px">
+                    </div>  
+                    <a href="service/devops/#scroll-down" class="down-arrow"></a>
+                </div>
+                
+            </section>
+
+    <section>
+        <div class="tabs">
+                <div class="main-tab">
+                    <a class="tab active h5regular" href="#ones" id="scroll-down">Services</a>
+                    <a class="tab h5regular" href="#twos">Why Opseazy?</a>
+                    <a class="tab h5regular" href="#threes">Partners</a>
+                </div>
+                <div id="ones" class="tab-content show groups">
+                       <div class="all-tab">
+                            {{>tab this.serveData.subServices}}
+                            {{>sidetab this.serveData.subServices}}
+                        </div>
+                </div>
+                                                                        
+            <section>
+                <div class="technology-section">
+                    <div class="tech-title">
+                        <h2 class="vertical-tab h5regular cont" href="#"><div class="list-services">Technology</div></h2>
+                    </div>
+                    <div class="slideimg ">
+                        <div class="slider-nav"> 
+                            {{>image this.serveData}}
+
+
+                            {{!-- <div class="item"><img src="/Services/DevOps/slides/vagrant.svg"></div>
+                            <div class="item"><img src="/Services/DevOps/slides/tech.svg"></div> --}} --}}
+                            {{!-- <div class="item"><img src="/Services/DevOps/slides/ansible.svg"></div>
+                            <div class="item"><img src="/Services/DevOps/slides/docker.svg"></div>
+                            <div class="item"><img src="/Services/DevOps/slides/jenkins.svg"></div> --}}
+                        </div>
+                        <div class="arrowbtn">
+                            <div class="left"></div>
+                            <div class="right"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="aspects-section">
+                    <div class="aspects-title">
+                        <h2 class="vertical-tab h5regular cont" href="#"><div class="list-services">Aspects</div></h2>
+                    </div>
+                    <div class="aspects-cards-group">
+                        <div class="aspects-cards">
+                            <div class="aspects-card-img"></div>
+                            <div class="aspects-card-info">
+                                <h2 class="h5regular">Technologies</h2>
+                                <h4 class="h6small">Technologies</h4>
+                            </div>
+                        </div>
+                        <div class="aspects-cards">
+                            <div class="aspects-card-img"></div>
+                            <div class="aspects-card-info">
+                                <h2 class="h5regular">Technologies</h2>
+                                <h4 class="h6small">Technologies</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                <div id="twos" class="tab-content">
+                    What about opseazy?
+                </div>
+                <div id="threes" class="tab-content">
+                    We are best partners co.
+                </div>
+        </div>
+    </section>
+    </section>
+
+    {{>footer}}
+     <script>
+        $(".main-tab").on("click", ".tab", function(e){
+            e.preventDefault();
+
+            $(".tab").removeClass("active");
+            $(".tab-content").removeClass("show");
+            $(this).addClass("active");
+            $($(this).attr("href")).addClass("show");
+        });
+
+        $(".sub-tab").on("click", ".cont", function(e){
+            e.preventDefault();
+
+            $(".cont").removeClass("active");
+            $(".right-side").removeClass("shows");
+            $(this).addClass("active");
+            $($(this).attr("href")).addClass("shows");
+        });
+
+        $('.slider-nav').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+        });
+
+        $('.left').click(function(){
+            $('.slider-nav').slick('slickPrev');
+        })
+
+        $('.right').click(function(){
+            $('.slider-nav').slick('slickNext');
+        })
+  
+    </script>
+
+  
+
+
+ </body>
+ 

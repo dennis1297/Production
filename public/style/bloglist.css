@@ -1,0 +1,53 @@
+
+.contain {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1224px;
+    width: 100%;
+    justify-content: space-between;
+    color: #707070;
+    padding: 110px 10px;
+    box-sizing: border-box;
+}
+.contain>.box1 {
+    padding-top: 50px;
+    max-width: 536px;
+    width: 100%;
+}
+.contain>.box1>h3 {
+    font-size: 42px;
+    font-weight: 700px;
+}
+.box2 {
+    background-image: url(home/comming.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 536px;
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+    
+    .contain {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+    .contain>.box1>h3 {
+        font-size: 25px; 
+        font-weight: 700px;
+    }
+    .contain>.box2 {
+        max-width: 300px;
+        max-height: 200px;
+        margin: 18px auto;
+        
+    }
+}

@@ -1,0 +1,484 @@
+body {
+    width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+.servicecont {
+    background-image: linear-gradient(to right,#CB218E, #6617CB);
+
+}
+.sec-1 {
+    background-image: linear-gradient(to right,#CB218E, #6617CB);
+    height: 100vh;
+    color: #fff;
+}
+.sec2 {
+    background: #fff;
+}
+.services-page {
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+.services-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1224px;
+    width: 100%;
+    justify-content: space-between; 
+}                
+.services-title>.servicetop {
+    max-width: 520px;
+    width: 100%;
+}
+.services-title>.servicetop>div {
+    padding-top: 20px;
+}
+.services-title>img {
+    opacity: 0.5;
+}
+.down-arrow {
+    background: url("/Services/DevOps/arrow.svg") no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 60px;
+}
+.tabs {
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1224px;
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid #707070;
+}
+.main-tab>a {
+    text-decoration: none;
+    color: #707070;
+    width: 410px;
+    text-align: center;
+}
+.main-tab>a:hover {
+    border-bottom: 3px solid #55C39E;
+    padding: 15px 0;
+    margin-bottom: -3px;
+    color: #3880A3;
+}
+.main-tab>.active {
+    border-bottom: 3px solid #55C39E;
+    padding: 15px 0;
+    margin-bottom: -3px;
+    color: #3880A3;
+}
+.groups {
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.tab-content {
+    display: none;
+}
+.right-side {
+    display: none;
+}
+.all-tab {
+    display: flex;
+    flex-direction: row;
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.description {
+    margin-left: 45px;
+}
+.points {
+    padding: 30px 0;
+}
+.card-box {
+    border: 1px solid #707070;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.card-box>h2 {
+    background-image: linear-gradient(to right,#CB218E, #6617CB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cardbgimg {
+    background: url("/Services/DevOps/card logo.svg") no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+.technology-section,.aspects-section {
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.arrowbtn {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 35px;
+    right: 30px;
+}
+.arrowbtn>.left {
+    background: url("/Services/DevOps/leftarrow.svg") no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.arrowbtn>.right {
+    background: url("/Services/DevOps/rightarrow.svg") no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.slider-nav {
+    max-width: 600px;
+    position: absolute;
+}
+.item>img {
+    width: 71px;
+    height: 87px;
+    margin: 0 auto;
+}
+.slideimg {
+    display: block;
+    width: 100%;
+    margin: 0 99px;
+}
+.aspects-cards-group {
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 45px;
+}
+.tech-title>.cont>.list-services,.aspects-title>.cont>.list-services {
+    margin: 0 auto;
+}
+.aspects-card-info {
+    background-image: linear-gradient(to right,#CB218E, #6617CB);
+    color: #fff;
+    width: 310px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.aspects-card-info>h4 {
+    opacity: 0.5;
+}
+.aspects-card-img {
+    width: 310px;
+    height: 210px;
+    background: #ddd;
+    margin-right: 40px;
+}
+.imp-imgbg {
+    background: url("/Services/DevOps/implementation.png") no-repeat;
+    background-size: contain;
+    height: 247px;
+    width: 792px;
+}
+.list-items>h2 {
+    margin-top: 30px;
+}
+.points>li {
+    background: url("/Services/DevOps/bullet-icon.svg") no-repeat  2px;
+    padding-left: 35px;
+    display: list-item;
+    margin-bottom: 10px;
+    align-items: center;
+    list-style: none;
+}
+.card-container  {
+    display: flex;
+    flex-direction: row;
+    margin: 35px auto;
+    justify-content: center;
+}
+.show,.tab-list-vertical,.shows,.list-items {
+    display: block;
+}
+.verti-tab {
+    display: flex;
+    flex-direction: column;
+}
+.verti-tab>.active {
+    background-image: linear-gradient(to right, rgba(56,128,163,0.7) , rgba(85,195,158,0.7));
+}
+.verti-tab>a,.tech-title>h2,.aspects-title>h2 {
+    text-decoration: none;
+    width: 360px;
+    height: 80px;
+    background-image: linear-gradient(to right,#CB218E, #6617CB);
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20px;
+    box-sizing: border-box;
+    align-items: center;
+    color: #fff;
+}
+.list-services {
+    text-align: left;
+}
+.implement-bgicon {
+    background: url("/Services/DevOps/Exclusion-1.svg") no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
+
+.integration-bgicon {
+    background: url("/Services/DevOps/Group-187.svg") no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin-right: 35px;
+}
+.devops-bgicon {
+    background: url("/Services/DevOps/Path-644.svg") no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
+.consult-bgicon {
+    background: url("/Services/DevOps/Group-188.svg") no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
+.devsec-bgicon {
+    background: url("/Services/DevOps/Subtraction-1.svg") no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
+.testing-bgicon {
+    background: url("/Services/DevOps/Union-10.svg") no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
+.automation-bgicon {
+    background: url("/Services/DevOps/Group-189.svg") no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
+/* .services-box{
+    max-width:1224px;
+    width: 100%;
+    padding: 84px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    color: #707070;
+}
+.row-norm{
+    flex-direction: row;
+}
+.row-swap{
+    flex-direction: row-reverse;
+}
+.revise {
+    flex-direction: row-reverse;
+}
+.sub-title-cont {
+    max-width: 520px;
+    width: 100%;
+}
+.sub-title-cont>div{
+    font-size: 30px;
+    font-weight: bold;
+}
+.sub-title-cont>p {
+    padding-top: 32px;
+    font-size: 20px;
+}
+.services-box>.services-box-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 370px;
+    height: 230px;
+    background-position-x: center;
+} */
+.whyops-container,.partners-container {
+    max-width: 1224px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1023px){
+    .services-title {
+        flex-direction: column;
+    }
+    .services-title>img {
+        width: 263px !important;
+        height: auto !important;
+    }
+    .services-page {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .servicetop>h2 {
+        padding-bottom: 50px;
+    }
+    .down-arrow {
+        bottom: 20px;
+    }
+    .tabs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-tab {
+        flex-direction: column;
+        border-bottom: none;
+        justify-content: center;
+        height: 100%;
+    }
+    .main-tab>a {
+        width: 100%;
+    }
+    .main-tab>a:hover,.main-tab>.active {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .all-tab {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .verti-tab>a,.tech-title>h2,.aspects-title>h2 {
+        width: 300px;
+        height: 60px;
+        padding: 0 11px;
+    }
+    .implement-bgicon,.integration-bgicon,.devops-bgicon,.consult-bgicon,.devsec-bgicon,.testing-bgicon,.automation-bgicon {
+        width: 30px;
+        height: 30px;
+    }
+    .imp-imgbg {
+        background: url("/Services/DevOps/Group-285.png") no-repeat;
+        width: 286px;
+        height: 208px;
+        margin-top: 40px;
+        margin: 0 auto;
+    }
+    .list-items>h2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .points {
+        padding: 20px 0;
+        max-width: 302px;
+        margin: 0 auto;
+    }
+    .description {
+        min-width: 300px;
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+
+    }
+    .points>li {
+        background-size: 11px;
+        padding-left: 20px;
+    }
+    .card-container {
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-box {
+        width: 280px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .technology-section,.aspects-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider-nav {
+        max-width: 300px;
+    }
+    .aspects-cards-group {
+        flex-direction: column;
+        margin: 0 auto 20px;
+    }
+    .aspects-cards {
+        margin-top: 30px;
+    }
+    .aspects-card-img {
+        width: 260px;
+        margin: 0 auto;
+    }
+    .aspects-card-info {
+        width: 260px;
+    }
+    .aspects-cards-group {
+        margin: 0 auto;
+    }
+
+    
+}

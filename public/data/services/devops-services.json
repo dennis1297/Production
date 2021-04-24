@@ -1,0 +1,185 @@
+{
+  "title": "DevOps Services",
+  "Introductions": "OpsEazy’s DevOps work journey with a perfect and implementation plan. In product delivery Devops service augment fast transformation in organization by Automation. Agile product delivery is reducing complexity in the market.",
+  "images": "Services/devopsnew.svg",
+  "link": "devops",
+  "img": [
+    "Services/DevOps/slides/docker.svg",
+    "Services/DevOps/slides/vagrant.svg",
+    "Services/DevOps/slides/docker.svg",
+    "Services/DevOps/slides/vagrant.svg",
+    "Services/DevOps/slides/docker.svg"
+  ],
+  "technology": [
+    {
+      "techTitle": "Aspects",
+      "techid": "eight",
+      "class": "",
+      "serviceThumb": "background: url(/Services/subs/aspect.svg)",
+      "image": "background:url(/Services/DevOps/Tech.svg)",
+      "techcontent": "",
+      "techbullet": [
+        {
+          "title": "",
+          "lists": [
+            "We includes the process of designing, building, and implementing software applications.",
+            "DevOps transformation in order to increase the speed of delivery, improves release quality, cut costs, and minimize operational failures.",
+            "We Focus on the Customer's Needs.",
+            "Automate (Almost) Everything."
+          ]
+        }
+      ]
+    },
+    {
+      "techTitle": "Tools & Technology",
+      "techid": "nine",
+      "class": "",
+      "serviceThumb": "background: url(/Services/subs/technology.svg)",
+      "image": "background:url(/Services/DevOps/Tech.svg)",
+      "techcontent": "",
+      "tecbullet": [
+        {
+          "title": "",
+          "lists": [""]
+        }
+      ],
+
+      "techimg": [
+        "background:url(/Services/Technology/ansible.svg)",
+        "background:url(/Services/Technology/aws.svg)",
+        "background:url(/Services/Technology/azure.svg)",
+        "background:url(/Services/Technology/chef.svg)",
+        "background:url(/Services/Technology/docker.svg)",
+        "background:url(/Services/Technology/git.svg)",
+        "background:url(/Services/Technology/kubernetes.svg)",
+        "background:url(/Services/Technology/puppet.svg)",
+        "background:url(/Services/Technology/terraform.svg)"
+      ]
+    }
+  ],
+  "subServices": [
+    {
+      "serviceTitle": "DevOps Implementation",
+      "id": "one",
+      "class": "DevOps-Implementation",
+      "serviceThumb": "background: url(/Services/subs/devopsimp.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "DevOps plays a crucial role in completing the delivery process. But the concept of DevOps is not new. It's an ageold one. A momentous section of organizations have not yet applied or are facing challenges in implementing DevOps to achieve their intended benefits.",
+      "bullet": [
+        {
+          "title": "Why do we attain success with DevOps implementation and why others struggle?",
+          "lists": [
+            "OpsEazy’s DevOps work journey with a perfect and implementable plan.",
+            "In product delivery Devops Implementation augment fast transformation in organization by Automation.",
+            "Agile product delivery in the market is reducing complexity."
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Continuous Integration And Delivery",
+      "id": "two",
+      "class": "Continuous-Integration-And-Delivery",
+      "serviceThumb": "background: url(/Services/subs/devopsIntegration.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "In software engineering, continuous integration is a development practice or a process of automating the build and testing of code. Every time a member of a development team commits changes to version control. CI supports developers to share their code and unit tests by their changes into a common version control repository after every small task completion. Committing code activates an automated build system to the up-to-date code from the common repository and to build, test, and validate the full master branch.",
+      "bullet": [
+        {
+          "title": "To attain Continuous Integration and Delivery we are using the below strategy",
+          "lists": [
+            "Opseazy   deliver the projects as planned without any delinquent, as we are strictly follow and sturdily believe in CI/CID procedure.",
+            "We committing code activate an automated build system to the up-to-date code from the common repository and to build, test, and validate the full master branch."
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Cloud DevOps",
+      "id": "three",
+      "class": "Cloud-DevOps",
+      "serviceThumb": "background: url(/Services/subs/clouddevops.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "Cloud computing is becoming ubiquitous in today’s competitive and dynamic business world. When combined with the DevOps culture, enterprises and developers stand to gain much in terms of quicker runtimes, scaling on demand, consistency of code, and better performance of software and applications.",
+      "bullet": [
+        {
+          "title": "Why OpsEazy?",
+          "lists": [
+            "Opseazy's Cloud Devops solutions are scalable and reliable. Because we are using all the cloud computing technologies.",
+            "We helps organizations to become more agile and swift in dynamic business scenarios"
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "DevOps Consultation",
+      "id": "four",
+      "class": "DevOps-Consultation",
+      "serviceThumb": "background: url(/Services/subs/consulting.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "Our DevOps team doing collaboration, monitoring, pipelines, automation and Cloud implementation. With our DevOps as a amenity providing, we ensure quick on-boarding of applications by automating end-to-end delivery pipeline and simplify continuous integration and development diagonally leading cloud platforms.",
+      "bullet": [
+        {
+          "title": "What we will provide optimal DevOps solution?",
+          "lists": [
+            "Opseazy will provide optimal DevOps solution for your enterprise.",
+            "Our Devops approaches will deliver your product development optimal and will enhance your development cycle.",
+            "Opseazy help large enterprises and start-ups bring into line their Development and Operations to attain higher efficacy, faster time to market and better quality of software builds with initial identification of emergent issues, lead the code be in a organized state always."
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "DevSecOps",
+      "id": "five",
+      "class": "DevSecOps",
+      "serviceThumb": "background: url(/Services/subs/security.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "Opseazy follow combined development and operations teams under a DevOps model and attaining successful in releasing code at a much faster rate. But the trend has heightened the need for security to be integrated into the process because the faster release code, the faster vulnerabilities can be released as well",
+      "bullet": [
+        {
+          "title": "We firmly recommended best practices for seeking to implement DevSecOps",
+          "lists": [
+            "While doing CI/CD process automation, We’ve put together a list of some of the top DevSecOps tools that organizations",
+            "It can integrate into their DevOps pipeline, to ensure that security is handled continuously throughout the development lifecycle."
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Continuous Testing",
+      "id": "six",
+      "class": "Continuous-Testing",
+      "serviceThumb": "background: url(/Services/subs/testing.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "Continuous testing needs to be automated from end to end testing solutions that integrate current development processes by reducing errors and enables continuity throughout Software Development Life Cycle. Continuous testing helps ensure that your software works seamlessly across releases. It's done by writing,",
+      "bullet": [
+        {
+          "title": "Why need OpsEazy's continuous testing services",
+          "lists": [
+            "Writing scripts that test important functionality,",
+            "Then integrating it into your software releases so that they run automatically before your software is released,",
+            "Making sure updates get deployed only when the tests pass."
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Infrastructure Automation",
+      "id": "seven",
+      "class": "Infrastructure-Automation",
+      "serviceThumb": "background: url(/Services/subs/infra.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "Opseazy supports multiple projects and finished several case studies to help our clients with Infrastructure Automation at their data centre. Automation allows for greater consistency, eliminates human error, and supports task repeatable. Infrastructure automation enables deploying servers using practices, deploying new applications, or update dependencies to hundreds of servers and/or adding hundreds of additional servers to provide load balancing, handle traffic within in a few minutes",
+      "bullet": [
+        {
+          "title": "What is OpsEazy’s Strategy in Infrastructure Automation?",
+          "lists": [
+            "Achieving a high degree of uniformity is very important when setting up infrastructure. So we helps to achieve the needed uniformity.",
+            "We help orchestrate changes across environments in bulk or small portions quickly and effectively.",
+            "This reduces the burden on developers and helps them focus on developing quality and feature rich software."
+          ]
+        }
+      ]
+    }
+  ]
+}

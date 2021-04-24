@@ -1,0 +1,30 @@
+.section-about {
+    background-image: linear-gradient(to right,#CB218E, #6617CB);
+}
+.content {
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding-top: 87px;
+    padding-bottom: 25%;
+}
+.content>h2 {
+    font-size: 32px;
+}
+.content>p {
+    font-size: 18px;
+    padding-top: 30px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1023px) {
+    .content {
+        box-sizing: border-box;
+        padding: 73px 10px;
+    }
+
+}

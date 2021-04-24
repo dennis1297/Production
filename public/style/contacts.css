@@ -1,0 +1,167 @@
+.section-contact {
+    background-image: linear-gradient(to right,#CB218E, #6617CB);
+    color: #fff;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+} 
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 36px 0;
+}
+.box input {
+    padding: 10px 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    background: none;
+    color: #fff;
+    padding-left: 10px;
+}
+.box input {
+    width:400px;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+.box form div {
+    position: relative;
+}
+.box form div label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #fff;
+    transition: 0.3s;
+    pointer-events: none;
+}
+.box input:focus~label,
+.box input:valid~label {
+    top: -12px;
+    left: 0;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box input:focus,
+.box input:valid {
+    border-bottom: 2px solid #fff;
+}
+.textarea>p {
+    color:#fff;
+}
+textarea {
+    width: 400px;
+    height: 220px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    font-weight: 400;
+    background: none;
+    color: #fff;
+}
+.sub-btn {
+    width:180px;
+    height:40px;
+    border:1px solid #fff;
+    border-radius: 50px;
+    background: #fff;
+    margin:20px 122px;
+    color: #3880A3;
+} 
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 36px 0;
+}
+.box-2>.follow {
+    padding-top: 15px;
+}
+address {
+    font-style: normal;
+    padding-top: 15px;
+    font-size: 13px;
+}
+.addres-row {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.second-row {
+    margin-left: 40px;
+}
+.box-2 iframe {
+    width: 529px;
+    height: 276px;
+    border: none;
+    padding-top: 15px;
+}
+.box-2>.social-link>a>img {
+    width: 63px;
+    height: 63px;
+}
+.box-2>.social-link>a {
+    padding-left: 15px;
+}
+.box-2>.social-link {
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+    .contact {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        width: 100%;
+        padding: 65px 10px;
+    }
+    .box-2 iframe {
+        width: 280px;
+        height: 230px;
+    }
+    .box {
+        margin: 0 auto;
+        max-width: 300px;
+        width: 100%;
+    }
+    .box input {
+        width: 280px;
+    }
+    textarea {
+        width: 280px;
+    }
+    .box-2 {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .box-2>.social-link>a {
+        padding-left: 0;
+    }
+    .box-2>.social-link>a>img {
+        width: 45px;
+        height: 45px;
+    }
+    .sub-btn {
+        margin: 10px 50px;
+    }
+    address {
+        font-size: 16px;
+    }
+    .addres-row {
+        flex-direction: column;
+    }
+    .second-row {
+        margin:20px 0;
+
+    }
+}
+    

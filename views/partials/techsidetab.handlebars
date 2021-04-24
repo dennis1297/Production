@@ -1,0 +1,10 @@
+{{#each this}}
+<div id="{{this.techid}}" class="description right-side {{#ifCond this.techid "eight"}}shows{{else}}{{/ifCond}} ">
+    <div class="list-items">
+        {{!-- <div style="{{this.image}} no-repeat; background-size: contain;" class="subTabImg"></div> --}}
+        <div class="primary-size techcont">{{this.techcontent}}</div>
+        {{>bullet this.techbullet}}
+        {{>tools this.techimg}}
+    </div>
+</div>
+{{/each}}

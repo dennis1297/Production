@@ -1,0 +1,153 @@
+{
+  "title": "Product Engineering",
+  "Introductions": "OpsEazy deal customization solutions as per your exact necessities to help you create and restructure the Website/Mobile Apps development efficiently.",
+  "images": "Services/enterprise.svg",
+  "link": "productengineering",
+  "img": [
+    "technology/mobiletech/flutter.svg",
+    "technology/mobiletech/ionic.svg",
+    "technology/mobiletech/java.svg",
+    "technology/mobiletech/kotlin.svg",
+    "technology/mobiletech/react.svg",
+    "technology/mobiletech/swift.svg",
+    "technology/webtech/angular.svg",
+    "technology/webtech/ionic.svg",
+    "technology/webtech/mongodb.svg",
+    "technology/webtech/nodejs.svg",
+    "technology/webtech/php.svg",
+    "technology/webtech/postgresql.svg",
+    "technology/webtech/python.svg",
+    "technology/webtech/react.svg",
+    "technology/webtech/vue.svg",
+    "technology/uiuxtech/ae.svg",
+    "technology/uiuxtech/ai.svg",
+    "technology/uiuxtech/figma.svg",
+    "technology/uiuxtech/in.svg",
+    "technology/uiuxtech/ps.svg",
+    "technology/uiuxtech/sketch.svg",
+    "technology/uiuxtech/xd.svg"
+  ],
+  "technology": [
+    {
+      "techTitle": "Aspects",
+      "techid": "eight",
+      "class": "",
+      "serviceThumb": "background: url(/Services/subs/aspect.svg)",
+      "image": "background:url(/Services/DevOps/Tech.svg)",
+      "techcontent": "",
+      "techbullet": [
+        {
+          "title": "",
+          "lists": [
+            "The process of developing the application is known as Application development.",
+            "We have a team of experts to create the application. We are using latest methodologies and strategy to complete the Website development.",
+            "Our developers use the spiral iterative methodology to build software applications in the shortest possible time and with zero risk."
+          ]
+        }
+      ]
+    },
+    {
+      "techTitle": "Tools & Technology",
+      "techid": "nine",
+      "class": "",
+      "serviceThumb": "background: url(/Services/subs/technology.svg)",
+      "image": "background:url(/Services/DevOps/Tech.svg)",
+
+      "techimg": [
+        "background:url(/Services/Technology/angular.svg)",
+        "background:url(/Services/Technology/flutter.svg)",
+        "background:url(/Services/Technology/ionic.svg)",
+        "background:url(/Services/Technology/java.svg)",
+        "background:url(/Services/Technology/nodejs.svg)",
+        "background:url(/Services/Technology/python.svg)",
+        "background:url(/Services/Technology/react.svg)",
+        "background:url(/Services/Technology/swift.svg)",
+        "background:url(/Services/Technology/vue.svg)"
+      ]
+    }
+  ],
+  "subServices": [
+    {
+      "serviceTitle": "Product Consultation",
+      "id": "one",
+      "class": "Product-Consultation",
+      "serviceThumb": "background:url(/Services/subs/consulting.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png)",
+      "content": "Infrastructure automation specialist might be focused on builds and scripting to make the deployment of virtual infrastructure more of a process than an individual effort each time.Automation is done to efficiently manage the servers, application, systems, network etc. A typical responsibilities of an IT Infrastructure automation engineer can be:",
+      "bullet": [
+        {
+          "title": "",
+          "lists": [
+            "Automating repetitive IT maintenance tasks",
+            "Integration between different infrastructure services",
+            "Process automation",
+            "Incident management automation",
+            "Automation of service requests",
+            "Automatic new infrastructure provisioning (servers,desktops,network devices etc)"
+          ]
+        }
+      ]
+    },
+
+    {
+      "serviceTitle": "Web App Development",
+      "id": "two",
+      "class": "Web-App-Development",
+      "serviceThumb": "background: url(/home/WEBAPP.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": " In General, customers thinks Website creation is having simple steps to create within a day! Yes certainly! Want to create a free website but don't know which website builder to use? OpsEazy is a best choice to create a professional Way website Development. Many platforms provide simple, drag and drop tools that make creating a website simple and straightforward. But it may not flexible or reliable to create your own website. But OpsEazy will understand your requirements easily and create a website as per your scheduled dates!",
+      "bullet": [
+        {
+          "title": "Responsibilities of a Build and Release Engineer",
+          "lists": [
+            "Version Control (Software Configuration Management)",
+            "Build workflows from the time the source code is written till it is delivered.  Compilation, Test, Deploy phases etc.",
+            "Identify the tools required to build and automate and optimize this workflow. Create reproducible, predictable environments.",
+            "Setup, integrate, maintain such tools.",
+            "Do the actual deployments to the production environment"
+          ]
+        }
+      ]
+    },
+
+    {
+      "serviceTitle": "Mobile App Development",
+      "id": "three",
+      "class": "Mobile-App-Development",
+      "serviceThumb": "background:url(/Services/subs/android.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "The process of developing the application is known as Application development. It includes the process of designing, building, and implementing software applications for Enterprises. We have a team of experts to create the application. We are using latest methodologies and strategy to complete the projects on time.If you are looking for a quick way to do application development for automated processes, please contact us!It is designed for technology-driven enterprises aiming to achieve efficiencies in their IT operations, and that guides and facilitates their DevOps transformation in order to increase the speed of delivery, improve release quality, cut costs, and minimize operational failures.",
+      "bullet": [
+        {
+          "title": "",
+          "lists": [
+            "Provide technical, consultative, and delivery services to customers for DevOps initiatives.",
+            "Assist the Professional Services team to develop offerings including proven architectures, proofs of concept, and best practices for delivery.",
+            "Utilize a variety of tools, techniques, and procedures to resolve problems.",
+            "Assist and support team members in executing projects on time."
+          ]
+        }
+      ]
+    },
+
+    {
+      "serviceTitle": "UI Development & Design",
+      "id": "four",
+      "class": "UI-Development-Design",
+      "serviceThumb": "background: url(/Services/subs/uidev.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "In the development phase, we use a collaborative approach with our team and yours to implement a powerful graphic interface design backed by the latest technologies. Depending on the platform chosen, we might employ modular UI development on the latest component-based frameworks, or web technologies OpsEazy generally separate into two phases in website/application/software development, Research + Design, Development If you have a question for our experts, please leave us a comment below, email our team directly at  support@opseazy.com",
+      "bullet": [
+        {
+          "title": "",
+          "lists": [
+            "Provide technical, consultative, and delivery services to customers for DevOps initiatives.",
+            "Assist the Professional Services team to develop offerings including proven architectures, proofs of concept, and best practices for delivery.",
+            "Utilize a variety of tools, techniques, and procedures to resolve problems.",
+            "Assist and support team members in executing projects on time."
+          ]
+        }
+      ]
+    }
+  ]
+}

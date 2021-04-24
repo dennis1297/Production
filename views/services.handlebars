@@ -1,0 +1,120 @@
+<link rel="stylesheet" href="/expertise.css">
+<meta name="description" content="{{serveData.Introductions}}">
+<title>{{serveData.title}}</title>
+</head>
+
+<body>
+    <section class="servicecont">
+        {{>header}}
+        <section class="sec-1">
+            <div class="services-page container">
+                <div class="services-title">
+                    <div class="servicetop">
+                        <h1 class="third-sz">{{serveData.title}}</h1>
+                        <div class="primary-size introdu">{{serveData.Introductions}}</div>
+                    </div>
+                    <img src="/{{serveData.images}}" style="width:600px;height:300px">
+                </div>
+                <a href="#scrollbottom" class="down-arrow"></a>
+            </div>
+        </section>
+
+        <section class="sec2">
+            <div class="tabs container">
+                <!--main-tab-div-start-line-->
+                <div class="main-tab container">
+                    <a id='scrollbottom' class="tab active primary-size" href="#ones">Offerings</a>
+                    <a class="tab primary-size" href="#twos">Technologies</a>
+                    {{!-- <a class="tab h5regular" href="#threes">Partners</a> --}}
+                </div>
+                <div id="ones" class="tab-content show groups">
+                    <!---Id -one-div-start-line-->
+                    <div class="all-tab container">
+                        {{>tab this.serveData.subServices}}
+                        {{>sidetab this.serveData.subServices}}
+                    </div>
+                </div>
+                <div id="twos" class="tab-content">
+                    <div class="technology-section container">
+                        {{>techtab this.serveData.technology}}
+                        {{>techsidetab this.serveData.technology}}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{>footer}}
+        <script>
+            $(".main-tab").on("click", ".tab", function (e) {
+                e.preventDefault();
+
+                $(".tab").removeClass("active");
+                $(".tab-content").removeClass("show");
+                $(this).addClass("active");
+                $($(this).attr("href")).addClass("show");
+            });
+            $(".sub-tab").on("click", ".cont", function (e) {
+                e.preventDefault();
+
+                $("#" + $(this).parent().parent().parent().attr("id")).find(".cont").removeClass("active");
+                $("#" + $(this).parent().parent().parent().attr("id")).find(".right-side").removeClass("shows");
+                $(this).addClass("active");
+                $($(this).attr("href")).addClass("shows");
+            });
+            function swithtab(sam) {
+                const a = "." + sam;
+                $("#" + $(a).parent().parent().parent().attr("id")).find(".cont").removeClass("active");
+                $("#" + $(a).parent().parent().parent().attr("id")).find(".right-side").removeClass("shows");
+                $(a).addClass("active");
+                $($(a).attr("href")).addClass("shows");
+                var y = $(window).scrollTop();
+                $('html, body').animate({
+                    scrollTop: $(".shows").offset().top - 80
+                });
+            }
+            if (window.location.hash) {
+                const sam = window.location.hash.replace('#', '');
+                swithtab(sam);
+            }
+            $(".dir>a").on("click", function (e) {
+                var eventLink = $(this).attr("href").split('/')[2];
+                var locationLink = window.location.pathname.split('/')[2];
+                var subEventLink = eventLink.substr(0, eventLink.indexOf('#'));
+                if (subEventLink === locationLink) {
+                    var sam = eventLink.substr(eventLink.indexOf('#')).replace('#', '');
+                    swithtab(sam);
+                   var display =  $("#myLinks").css("display");
+    if(display!="none")
+    {
+        $("#myLinks").attr("style", "display:none");
+        $("#humburger").toggleClass('close-icon menu-icon');
+
+    } 
+                 }
+            })
+            $('.slider-nav').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 1023,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    }]
+            });
+            $(window).on('resize', function () {
+                $('.slider-nav').slick('resize');
+            });
+
+            $('.left').click(function () {
+                $('.slider-nav').slick('slickPrev');
+            })
+
+            $('.right').click(function () {
+                $('.slider-nav').slick('slickNext');
+            })
+        </script>
+</body>

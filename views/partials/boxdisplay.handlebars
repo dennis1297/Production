@@ -1,0 +1,12 @@
+{{#ifCond this ""}}
+{{else}}
+    <div class="card-container">
+        {{#each this}}
+        <div class="card-box">
+            <div class="cardbgimg"></div>
+            <h2 class="h5sm">{{this.cardTitle}}</h2>
+            <p class="h6regular">{{this.cardContent}}</p>
+        </div>
+        {{/each}}
+    </div>
+{{/ifCond}}

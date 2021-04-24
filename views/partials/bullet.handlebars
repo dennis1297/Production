@@ -1,0 +1,19 @@
+{{#ifCond this ""}}
+{{else}}
+    {{#each this}}
+         {{#ifCond this.title ""}}
+                <div class="points">
+                     {{#each this.lists}}
+                        <li class="primary-size">{{this}}</li>
+                    {{/each}}
+                </div>
+            {{else}}
+                <div class="sub-bsz">{{this.title}}</div>
+                <div class="points">
+                    {{#each this.lists}}
+                        <li class="primary-size">{{this}}</li>
+                    {{/each}}
+                </div>
+        {{/ifCond}}
+    {{/each}}
+{{/ifCond}}

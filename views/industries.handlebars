@@ -1,0 +1,96 @@
+<link rel="stylesheet" href="/expertise.css">
+<meta name="description" content="{{serveData.Introductions}}">
+<title>{{serveData.title}}</title>
+</head>
+
+<body>
+    <section class="servicecont">
+        {{>header}}
+        <section class="sec-1">
+            <div class="services-page container">
+                <div class="services-title">
+                    <div class="servicetop">
+                        <h1 class="third-sz">{{serveData.title}}</h1>
+                        <div class="primary-size introdu">{{serveData.Introductions}}</div>
+                    </div>
+                    <img src="/{{serveData.images}}" style="width:600px;height:300px">
+                </div>
+                <a href="#scrollbottom" class="down-arrow"></a>
+            </div>
+        </section>
+
+        <section class="sec2">
+            <div class="tabs container">
+                <!--main-tab-div-start-line-->
+                <div class="main-tab container">
+                    <a id='scrollbottom' class="tab active primary-size" href="#ones">Introductions</a>
+                    <a class="tab primary-size" href="#twos">Why OpsEazy?</a>
+                </div>
+                <div id="ones" class="tab-content show groups">
+                    <!---Id -one-div-start-line-->
+                    <div class="all-tab container">
+                        {{>tab this.serveData.subServices}}
+                        {{>sidetab this.serveData.subServices}}
+                    </div>
+                </div>
+
+                <!---Id -one-div-end-line-->
+
+
+
+                <div id="twos" class="tab-content">
+                    <div class="technology-section container">
+
+                        {{>techtab this.serveData.technology}}
+                        {{>techsidetab this.serveData.technology}}
+                    </div>
+                </div>
+            </div>
+            <!--main-Tabs-div-end-line-->
+        </section>
+        {{>footer}}
+        <script>
+            $(".main-tab").on("click", ".tab", function (e) {
+                e.preventDefault();
+                $(".tab").removeClass("active");
+                $(".tab-content").removeClass("show");
+                $(this).addClass("active");
+                $($(this).attr("href")).addClass("show");
+            });
+            $(".sub-tab").on("click", ".cont", function (e) {
+                e.preventDefault();
+                console.log($("#" + $(this).parent().parent().parent().attr("id")).find(".cont"))
+
+                $("#" + $(this).parent().parent().parent().attr("id")).find(".cont").removeClass("active");
+                $("#" + $(this).parent().parent().parent().attr("id")).find(".right-side").removeClass("shows");
+                $(this).addClass("active");
+                $($(this).attr("href")).addClass("shows");
+            });
+
+            $('.slider-nav').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 1023,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    }]
+            });
+            $(window).on('resize', function () {
+                $('.slider-nav').slick('resize');
+            });
+
+            $('.left').click(function () {
+                $('.slider-nav').slick('slickPrev');
+            })
+
+            $('.right').click(function () {
+                $('.slider-nav').slick('slickNext');
+            })
+        </script>
+</body>

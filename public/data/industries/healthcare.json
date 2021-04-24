@@ -1,0 +1,48 @@
+{
+    "title":"Healthcare",
+    "Introductions":"OpsEazy doing process of moving your work to cloud, including migration of apps, software programs, and entire infrastructure with the business objectives of the organization.",
+    "images":"Industries/subs/Healthcare.svg", 
+    "link":"cloud",
+    "img":["Services/devops.svg",
+                "technology/cloudtech/alibaba.svg",
+                "technology/cloudtech/aws.svg",
+                "technology/cloudtech/azure.svg",
+                "technology/cloudtech/cgp.svg",
+                "technology/cloudtech/heroku.svg",
+                "technology/cloudtech/ibm.svg",
+                "technology/cloudtech/ocean.svg",
+                "technology/cloudtech/vm.svg"
+            ],  
+            "technology":[{    
+                "techTitle":"Description",
+                    "techid":"eight",
+                    "class":"",
+                    "serviceThumb":"background: url(/Services/subs/technology.svg)",
+                    "image":"background:url(/Services/DevOps/Tech.svg)" ,
+                    "techcontent":"We are a fast-growing team of highly passionate, skillful IT professionals with excellence in implementing DevOps services, cloud reengineering, hybrid cloud integration, cloud migration, implementing cloud security and 24/7 infra support services. Our services are dynamic, scalable, resilient and responsive. We take a highly collaborative approach to align our services with your business goals."
+                   
+            }] , 
+    "subServices":[
+         {
+            "serviceTitle":"Overview",
+            "id":"one",
+            "class":"",  
+            "serviceThumb":"background:url(/Services/subs/hybrid.svg)",
+            "image":"background: url(/Services/DevOps/implementation.png) " ,
+            "content":"Founded in the year 2020, OpsEazy (India) Pvt Ltd is a leading Information Technology of Pre-cloud computing, special automation and security, web products and development along with complete design, Technology and solutions. With years of experience, OpsEazy has developed the technical knowhow and knowledge base to provide the best services products expertise in the country.",
+         
+            "bullet" : [{  
+                "title":"Vision",
+                "lists":["Adopt new technologies.",
+                "Highly Scalable.",
+                "Get more customer insights to remain relevant.",
+                "Innovate to remain relevant.",
+                "Cost Saving."]
+            }]
+          
+         }
+        ]
+    }
+
+    
+

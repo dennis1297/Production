@@ -1,0 +1,41 @@
+
+    
+    <div class="tools-technology">
+        {{#each this}}
+            
+            <div style="{{this}} no-repeat;width: 100px;height: 100px;background-position: center;"></div>
+        {{/each}}
+    </div>
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{#ifCond this ""}}
+
+
+
+{{else}}
+    <div class="tools-technology">
+        {{#each this}}
+        <div class="img1">{{this.techimg}}</div>
+        {{/each}}
+    </div>
+{{/ifCond}}

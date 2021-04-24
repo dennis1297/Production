@@ -1,0 +1,11 @@
+
+{{#each this}}
+    <div id="{{this.id}}" class="description right-side {{#ifCond this.id "one"}}shows{{else}}{{/ifCond}} ">
+        <div class="list-items">
+            {{!-- <div style="{{this.image}} no-repeat; background-size: contain;" class="subTabImg"></div> --}}
+            <div class="primary-size techcont">{{this.content}}</div>
+            {{>bullet this.bullet}} 
+            {{!-- {{>boxdisplay this.cards}}       --}}
+        </div>
+    </div>
+{{/each}}    

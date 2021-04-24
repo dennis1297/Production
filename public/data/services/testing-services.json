@@ -1,0 +1,159 @@
+{
+  "title": "Testing Services",
+  "Introductions": "OpsEazy doing Test Management service from project initiation through to post implementation support. Our Aspects to offer testing services with highly experienced testing professionals is entirely Quality.",
+  "images": "Services/subs/testing.svg",
+  "img": [
+    "Services/DevOps/slides/docker.svg",
+    "Services/DevOps/slides/vagrant.svg",
+    "Services/DevOps/slides/docker.svg",
+    "Services/DevOps/slides/vagrant.svg",
+    "Services/DevOps/slides/docker.svg"
+  ],
+  "technology": [
+    {
+      "techTitle": "Aspects",
+      "techid": "eight",
+      "class": "",
+      "serviceThumb": "background: url(/Services/subs/aspect.svg)",
+      "image": "background:url(Services/DevOps/Tech.svg)",
+      "techcontent": "",
+      "techbullet": [
+        {
+          "title": "",
+          "lists": [
+            "We strongly believe Software Quality Engineering is an integral part of the software development lifecycle.",
+            "It is not a one-time deal, but a continuous process, which ensures sustainability and business continuity.",
+            "Our quality engineering services across the project lifecycle include the complete test process."
+          ]
+        }
+      ]
+    },
+    {
+      "techTitle": "Tools & Technology",
+      "techid": "nine",
+      "class": "",
+      "serviceThumb": "background:url(/Services/subs/technology.svg)",
+      "image": "background:url(Services/DevOps/Tech.svg)",
+      "techcontent": "",
+      "tecbullet": [
+        {
+          "title": "",
+          "lists": [""]
+        }
+      ],
+
+      "techimg": [
+        "background:url(/Services/Technology/appium.svg)",
+        "background:url(/Services/Technology/appltest.svg)",
+        "background:url(/Services/Technology/cucumberio.svg)",
+        "background:url(/Services/Technology/Protractor.svg)",
+        "background:url(/Services/Technology/selenium.svg)",
+        "background:url(/Services/Technology/Serenity.svg)",
+        "background:url(/Services/Technology/SIkULI.svg)",
+        "background:url(/Services/Technology/specflow.svg)",
+        "background:url(/Services/Technology/Testcomplete.svg)"
+      ]
+    }
+  ],
+  "subServices": [
+    {
+      "serviceTitle": "Quality Engineering",
+      "id": "one",
+      "class": "Quality-Engineering",
+      "serviceThumb": "background:url(/Services/subs/Quality.svg)",
+      "image": " ",
+      "content": "Quality engineering is the observation and recommend for adherent of engineering which pact with quality assurance and control. Certainly, we recognize that quality assurance is requisite for any product, services. We have experts to work on Software quality concepts and services and make sure that the software is as per the quality standards that have been set up for the software. It can be guaranteed during the system development life cycle i.e. during the progress of the software.",
+      "bullet": [
+        {
+          "title": "To Reach Software Quality Engineering",
+          "lists": [
+            "Test Strategy and Test Planning ",
+            "Definition of Scope and Evaluation of current state",
+            "Best tool selection to fit your goal",
+            "Quality Engineering best practices, creative approaches and goals",
+            "Improving Automation and performance of the system",
+            "Monitoring,Analysis and Reporting"
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Test Automation",
+      "id": "two",
+      "class": "Test-Automation",
+      "serviceThumb": "background: url(/Services/subs/testauto.svg)",
+      "image": "background: url(Services/DevOps/implementation.png) ",
+      "content": "As a foremost automation testing company we recognize require for holistic automation testing services, rather than pertain mechanization from a typical perception, since doing so confines the Quality of the products. It is our plan, to ensure high ROI and overall analogy with all raised area that you try to find for your business. Automation testing services are a strategic move to make certain exactness and focus in the empire of product development and ensure decrease in the overall cost of testing while considerably rising quality.",
+      "bullet": [
+        {
+          "title": "We are using the below Aspects to Automate the Projects",
+          "lists": [
+            "Capture/rerun is not a long-term resolution. Recording screen match up rarely works.",
+            "Avoid recreating, reuse existing scripts wherever possible.",
+            " Supervision support is critical, but potential must be pragmatic.",
+            "A well-planned pilot project gives a sound groundwork for automation.",
+            "Considering prioritization of tests when they are automated.",
+            "Maintain Client interest and support with recurrent reports about the automation"
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Digital Technology",
+      "id": "three",
+      "class": "Digital-Technology",
+      "serviceThumb": "background: url(/Services/subs/digitaltech.svg)",
+      "image": "background: url(/Services/DevOps/implementation.png) ",
+      "content": "OpsEazy , can address various challenges like functionality, performance, security, usability, and cross-device compatibility of your applications across the entire digital gamut. We closely work with clients in various methodologies (e.g., Agile, Iterative or DevOps) to offer digital testing services for mobile or website applications and ensure faster time to market for your digital applications/software. Digital testing enables digital conversion by reducing the business risk of put into operation digital innovations that are intended to create an excellent customer experience and that distinguish an organization from its entrant.",
+      "bullet": [
+        {
+          "title": "To attain your goal smoothly we are using following strategy",
+          "lists": [
+            "End to end services portfolio for digital applications.",
+            "User-centric testing approach.",
+            "Fully equipped mobile test lab",
+            "Affluent experience in the web, mobile applications testing.",
+            "Experience with all industry leading tools for functional testing, performance testing, security testing and test automation etc."
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Data Warehouse and ETL Testing Services",
+      "id": "four",
+      "class": "Data-Warehouse-ETL-Testing",
+      "serviceThumb": "background: url(/Services/subs/warehouse.svg)",
+      "image": "background: url(Services/DevOps/implementation.png) ",
+      "content": "Normally every organization will have dedicated databases for every business line. And it keeps only current data in order to offer better performance in production environment. ETL, the process used during the transferring of data between databases is one of the significant concepts in data warehousing. This process of ETL consists of sub-processes like Extracting of the data from the source database, transforming the extracted data to the format required to be accepted into the destination database and then finally loading the transformed data into the data warehouse.",
+      "bullet": [
+        {
+          "title": "For ETL Testing OpsEazy is using the below aspects",
+          "lists": [
+            "We identify  the ETL tool which contains procedures and rules for extracting and processing data, eliminating the need for traditional programming methods that are labor-intensive and expensive.",
+            "We have experts ETL Team who are well versed in compatibility with cloud data warehouse, ERP and CRM platforms such as Amazon Web Services, Salesforce, Oracle, Kinesis, Google Cloud Platform, NetSuite, and more.",
+            "We know DevOps expands to cloud-based data environments and processes, there is a need for automated data integration with ETL testing tools that can process larger amounts of data autonomously without need for human intervention  in real-time."
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Test Consultant",
+      "id": "five",
+      "class": "Test-Consultant",
+      "serviceThumb": "background: url(/Services/subs/consulting.svg)",
+      "image": "background: url(Services/DevOps/implementation.png) ",
+      "content": " OpsEazy can offer you with dexterity, acquaintance & development to initiate and apply a consistent testing strategy involving automated build processes and automated testing throughout the lifecycle of a project. We afford consulting to support with the obligatory change management necessary to take up competent testing processes in your business. Using different procedure will reduce cost as quality control is forced throughout the project",
+      "bullet": [
+        {
+          "title": "Key Benefit of our Consultation:",
+          "lists": [
+            "We endow with standardized, tried and tested Test Management service from project initiation through to post implementation support.",
+            "We assist to simplify your procedures and process to attain significant cost savings, faster achievement, improved accuracy ",
+            "A long-term pledge to work with you to achieve your project objectives and give support in the prospect, underpinned by our austere privacy agreements and Code of Ethics",
+            "Based on an individual testing strategy and comprehensive test plan, our experts build up and run your tests, while focusing on quality results, release management, cost and time savings."
+          ]
+        }
+      ]
+    }
+  ]
+}

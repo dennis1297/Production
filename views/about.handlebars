@@ -1,0 +1,99 @@
+<link rel="stylesheet" href="/expertise.css">
+<meta name="description" content="OpsEazy’s mission is provide the 
+Conviction and Deference for our customers, because we recognize the value of our clients.">
+<title>{{title}}</title>
+</head>
+
+<body>
+    <section class="servicecont">
+        {{>header}}
+        <section class="sec-1">
+            <div class="services-page">
+                <div class="services-title container">
+                    <div class="servicetop">
+                        <h1 class="third-sz">{{serveData.title}}</h1>
+                        <div class="primary-size introdu">{{serveData.Introductions}}</div>
+                    </div>
+                    <img src={{serveData.images}} style="width:600px;height:300px">
+                </div>
+                <a href="#scroll-down" class="down-arrow"></a>
+            </div>
+        </section>
+
+        <section class="sec2">
+            <div class="tabs container" id="#about">
+                <!--main-tab-div-start-line-->
+                <div class="main-tab container">
+                    <a class="tab active primary-size" href="#ones" id="scroll-down">About us</a>
+                    <a class="tab primary-size" href="#twos">Policies</a>
+                    {{!-- <a class="tab h5regular" href="#threes">Partners</a> --}}
+                </div>
+                <div id="ones" class="tab-content show groups">
+                    <!---Id -one-div-start-line-->
+                    <div class="all-tab container">
+                        {{>tab this.serveData.subServices}}
+                        {{>sidetab this.serveData.subServices}}
+                    </div>
+                </div>
+
+                <!---Id -one-div-end-line-->
+
+
+
+                <div id="twos" class="tab-content">
+                    <div class="technology-section container">
+                        {{>techtab this.serveData.technology}}
+                        {{>techsidetab this.serveData.technology}}
+                    </div>
+                </div>
+            </div>
+            <!--main-Tabs-div-end-line-->
+        </section>
+        {{>footer}}
+        <script>
+            $(".main-tab").on("click", ".tab", function (e) {
+                e.preventDefault();
+
+                $(".tab").removeClass("active");
+                $(".tab-content").removeClass("show");
+                $(this).addClass("active");
+                $($(this).attr("href")).addClass("show");
+            });
+
+            $(".sub-tab").on("click", ".cont", function (e) {
+                e.preventDefault();
+                console.log($("#" + $(this).parent().parent().parent().attr("id")).find(".cont"))
+
+                $("#" + $(this).parent().parent().parent().attr("id")).find(".cont").removeClass("active");
+                $("#" + $(this).parent().parent().parent().attr("id")).find(".right-side").removeClass("shows");
+                $(this).addClass("active");
+                $($(this).attr("href")).addClass("shows");
+            });
+
+            $('.slider-nav').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 1023,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    }]
+            });
+            $(window).on('resize', function () {
+                $('.slider-nav').slick('resize');
+            });
+
+            $('.left').click(function () {
+                $('.slider-nav').slick('slickPrev');
+            })
+
+            $('.right').click(function () {
+                $('.slider-nav').slick('slickNext');
+            })
+        </script>
+</body>

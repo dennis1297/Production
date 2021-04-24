@@ -1,0 +1,38 @@
+.section-solutions{
+    background-image: linear-gradient(to right,#CB218E, #6617CB);
+}
+.solutions-container {
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    color: #3880A3;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1023px) {
+    .solutions-container {
+        flex-direction: column;
+        padding: 80px 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .box {
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+    }
+
+}

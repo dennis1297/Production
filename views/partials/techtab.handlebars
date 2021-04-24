@@ -1,0 +1,7 @@
+
+<div class="tab-list-vertical verti-tab sub-tab">
+{{#each this}}
+        <a class="vertical-tab primary-size cont {{#ifCond this.techid "eight"}}acti active{{else}}{{/ifCond}} " href="#{{this.techid}}"><div style="{{this.serviceThumb}} no-repeat; background-size: contain;" class="implement-bgicon"> </div><div class="list-services">{{this.techTitle}}</div> </a>
+{{/each}}
+</div>
+   

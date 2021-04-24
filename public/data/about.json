@@ -1,0 +1,83 @@
+{
+    "title":"About us",
+    "Introductions":"OpsEazy’s mission is provide the Conviction and Deference for our customers, because we recognize the value of our clients.",
+    "images":"Services/subs/aboutus.svg",  
+    "img":["Services/devops.svg",
+                "Services/DevOps/slides/docker.svg",
+                "Services/DevOps/slides/vagrant.svg",
+                "Services/DevOps/slides/docker.svg",
+                "Services/DevOps/slides/vagrant.svg"
+            ],  
+
+     "technology":[{    
+            "techTitle":"CSR Policy",
+                "techid":"eight",
+                "class":"",
+                "serviceThumb":"background: url(/Services/subs/policy.svg)",
+                "image":"background: url(/Services/DevOps/imlementation.png) " ,
+                "techcontent":"OpsEazy assess and take responsibility for the company's effects on the environment and impact on social and client welfare. OpsEazy use CSR to integrate economic, environmental and social objectives with the company's operations and growth.",
+                "bullet" : [{
+                    "title":"",
+                    "lists":["Provide technical, consultative, and delivery services to customers for DevOps initiatives.",
+                    "Assist the Professional Services team to develop offerings including proven architectures, proofs of concept, and best practices for delivery.",
+                    "Utilize a variety of tools, techniques, and procedures to resolve problems.",
+                    "Assist and support team members in executing projects on time."]
+                }]
+    },
+     {   
+          "techTitle":"PIMS Policy",
+                "techid":"nine",
+                "class":"",
+                "serviceThumb":"background: url(/Services/subs/policy.svg)",
+                "image":"background: url(/Services/DevOps/implementation.png) " ,
+                "techcontent":"OpsEazy protects personal data of all entities and individuals associated with it to prevent wrongful exposure, usage or processing for unintended purpose and shall ensure compliance to applicable legal, contractual, statutory and regulatory requirements.",
+                "bullet" : [{
+                    "title":"",
+                    "lists":[""]
+                }]    
+     }] ,      
+    "subServices":[
+        {
+            
+            "serviceTitle":"About OpsEazy",
+            "id":"one",
+            "class":"",
+            "serviceThumb":"background: url(/Services/subs/aboutops.svg)",
+            "image":"background: url(/Services/DevOps/implementation.png) " ,
+            "content":"OpsEazy helps enterprises react to market dynamics quickly by assisting them transform ideas into successful products. With our high standards for technology deployments supported by advanced solution offerings. we carry the scale, security, and agility that our global clients entail. We become technology allies to our customers, foster long term, mutually valuable relationships and make sure they get most advantageous proceeds on their IT investments. We have a team of engineers and designers dedicated to create and build software solutions adapted to our clients' profession and necessities. We'll complete your project on time and make sure to proceed with support. You'll have full visibility of the project at all times.",
+            "bullet" : [{   
+                "title":"",
+                "lists":[""]
+            }]
+    },
+    {
+            
+        "serviceTitle":"High-Tech Teams",
+        "id":"two",
+        "class":"",
+        "serviceThumb":"background: url(/Services/subs/hightechteam.svg)",
+        "image":"background: url(/Services/DevOps/implementation.png) " ,
+        "content":"Technical Architects and Technical Managers together form this teams, High-Tech Teams (HTT’s) focus of attention and responsibility, hence our clients, stay on the leading edge of technology development and Support. This team actively participates when the specific problems on demand.",
+        "bullet" : [{
+            "title":"",
+            "lists":[""]
+        }]
+},
+        {
+                "serviceTitle":"Learning and Development",
+                "id":"three",
+                "class":"",
+                "serviceThumb":"background: url(/Services/subs/learndev.svg)",
+                "image":"background: url(/Services/DevOps/implementation.png) " ,
+                "content":"Compulsory 40 hours training program for every employee on each year. This helps us to line with our culture on inclusive learning towards employee’s career growth in terms of knowledge and skills.",
+                "bullet" : [{
+                    "title":"",
+                    "lists":[""]
+                }]            
+                
+        }
+
+       
+        ]
+    }
+  

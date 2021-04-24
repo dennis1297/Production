@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="/cookies.css">
+</head>
+<body>
+    <section>
+        <div class="cookie">
+            <div class="cookiecont">
+                <p>This website uses cookies to ensure you get the best experience on our website.</p>
+                <a href="/privacypolicy">Learn more</a>
+                <button type="submit" onclick="cookiePush()">Accept</button>
+            </div>
+        </div>
+    </section>
+    <script>
+        function cookiePush(){
+            document.cookie = "confirm=true";
+            document.querySelector(".cookie").style.display="none";
+            console.log(document.cookie);
+        }
+    </script>
+</body>
+</html>

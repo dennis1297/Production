@@ -1,0 +1,121 @@
+{
+  "title": "Infra Services",
+  "Introductions": "OpsEazy applied automation and performance monitoring for 24/7 and throughout the project life cycle and other value-added services as well recurrently suggest service enhancement.",
+  "images": "Services/subs/infra.svg",
+  "link": "infraservices",
+  "img": [
+    "Services/devops.svg",
+    "Services/DevOps/slides/docker.svg",
+    "Services/DevOps/slides/vagrant.svg",
+    "Services/DevOps/slides/docker.svg",
+    "Services/DevOps/slides/vagrant.svg"
+  ],
+  "technology": [
+    {
+      "techTitle": "Aspects",
+      "techid": "eight",
+      "class": "",
+      "serviceThumb": "background: url(/Services/subs/aspect.svg)",
+      "image": "background:url(Services/DevOps/Tech.svg)",
+      "techcontent": "",
+      "techbullet": [
+        {
+          "title": "",
+          "lists": [
+            "We host a cloud infrastructure, offering DevOps, cloud monitoring services for the whole project.",
+            "OpsEazy infrastructure services offer you with the technology needed to validate your key and push your products to market.",
+            "Our unique aspect of infrastructure is its elasticity. Each service can be tailored to be used together or by itself as per the demands of the project.",
+            "Our infrastructure is also flexible on the size of the project and can be altered based on the necessities. By working in collaboration with us, we can endorse you to bring improvement to the IT market at a much faster pace."
+          ]
+        }
+      ]
+    },
+    {
+      "techTitle": "Tools & Technology",
+      "techid": "nine",
+      "class": "",
+      "serviceThumb": "background: url(/Services/subs/technology.svg)",
+      "image": "background:url(Services/DevOps/Tech.svg)",
+      "techcontent": "",
+
+      "techimg": [
+        "background:url(/Services/Technology/ansible.svg)",
+        "background:url(/Services/Technology/cfe.svg)",
+        "background:url(/Services/Technology/icinga.svg)",
+        "background:url(/Services/Technology/jenkins.svg)",
+        "background:url(/Services/Technology/docker.svg)",
+        "background:url(/Services/Technology/jujucharms.svg)",
+        "background:url(/Services/Technology/nagios.svg)",
+        "background:url(/Services/Technology/newrelic.svg)",
+        "background:url(/Services/Technology/openmetricsio.svg)",
+        "background:url(/Services/Technology/puppet.svg)",
+        "background:url(/Services/Technology/saltstack-icon.svg)",
+        "background:url(/Services/Technology/vagrantup.svg)",
+        "background:url(/Services/Technology/zabbix.svg)"
+      ]
+    }
+  ],
+  "subServices": [
+    {
+      "serviceTitle": "24/7 Support",
+      "id": "one",
+      "class": "24-7-Support",
+      "serviceThumb": "background: url(/Services/subs/24-7.svg)",
+      "image": "background: url(Services/DevOps/implementation.png) ",
+      "content": "OpsEazy is supporting you and your business buy Monitoring with our inventive software solution that has successfully proven to increase efficiency, improve your quality of the product, improving your business and satisfaction of the customers and End-users. We're here and ready to help 24x7. There are lots of ways that you can get in touch, so please choose that suits you.",
+      "bullet": [
+        {
+          "title": "In What Ways we help you?",
+          "lists": [
+            "OpsEazy doing 24/7 monitoring for your projects",
+            "DevOps practices and 24/7 IT monitoring help you increase system performance and security by automating processes and proactively supervising system availability",
+            "For Continuous monitoring we are using different types of tools which is help to Continuous Monitoring: Newrelic, Nagios, PRTG, Graphana",
+            "This will facilitate for automate several processes and drastically reduce the time spent on setting up environments, backing up data and revise infrastructure mechanism to the latest versions available."
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Cloud Support",
+      "id": "two",
+      "class": "Cloud-Support",
+      "serviceThumb": "background: url(/Services/subs/cloudsupport.svg)",
+      "image": "background: url(Services/DevOps/implementation.png) ",
+      "content": "Monitor cloud infrastructure and applications for continuous business operations OpsEazy perform round-the-clock monitoring and cloud administration to provide anticipatory security and adversity recovery. We observe all cloud components to determine finest functionality through the standard reportage of analytics.We make sure excellent system health and provide timely cue for IT upgrades. Configurations are inspected and patch whenever needed, while system design is constantly supervise. Our team of  DevOps and other value-added services as well recurrently suggest service enhancement for cloud migration, together with",
+      "bullet": [
+        {
+          "title": "",
+          "lists": [
+            "Application security management",
+            "Cloud administration/ Services",
+            "Service upgrading",
+            "Cloud monitor",
+            "Value-added services",
+            "24/7 Support monitoring"
+          ]
+        }
+      ]
+    },
+    {
+      "serviceTitle": "DevOps Monitoring and Support",
+      "id": "three",
+      "class": "DevOps-Monitoring-Support",
+      "serviceThumb": "background: url(/Services/subs/devopssupport.svg)",
+      "image": "background: url(Services/DevOps/implementation.png) ",
+      "content": "Monitoring is one of the more overlooked areas when adopting Devops methodologies. Devops is speeding up the entire application lifecycle, from development to QA to production. For Our clients to deliver faster results and have greater business agility we are providing monitoring and support by Devops .We applied automation and performance monitoring throughout the development lifecycle enables shorter development cycles and higher quality releases",
+
+      "bullet": [
+        {
+          "title": "",
+          "lists": [
+            "Exploit constancy of your Application",
+            "Development Cycles are petite and quicker Innovation",
+            "Decreasing deployment Failures and Able to do timely recuperate",
+            "Increased effectiveness",
+            "Abridged Costs"
+          ]
+        }
+      ]
+    }
+  ]
+}
