@@ -9,11 +9,11 @@ var bodyParser = require("body-parser");
 var nodemailer = require("nodemailer");
 var smtpTransport = require("nodemailer-smtp-transport");
 var file = "./Contactdata.json";
-var sitemap = require("./sitemap");
+
 
 var smtpTransport = nodemailer.createTransport(
   smtpTransport({
-    service: "Zoho",
+    service: "Zoho",        
     auth: {
       user: "info@opseazy.com",
       pass: "S@heim0412",
@@ -44,7 +44,7 @@ app.get("/about", (req, res) => {
   res.render("about", serve);
 });
 
-app.get("/services/:title", (req, res) => {
+app.get("/services/:title", (req, res) => {  
   try {
     const services = {
       serveData: JSON.parse(
@@ -117,8 +117,8 @@ app.get("/termsofuse", (req, res) => {
 
 app.get("/sitemap", (req, res) => {
   res.render("sitemap");
-});
-app.use("/sitemap.xml", sitemap);
+});  
+
 
 app.post("/send-email", function (req, res) {
   var mailOption = {
