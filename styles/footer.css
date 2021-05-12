@@ -1,0 +1,19 @@
+.footer{
+    color: white;
+    /* background-color:#1D428A ; */
+    background: linear-gradient(#020024, #1D428A); 
+    display: flex; 
+     justify-content: space-evenly;
+    height: 250px;
+    margin-top: 1125px;
+}
+.mar{
+    margin: 10px;
+  
+}
+@media only screen and (max-width: 1023px){
+    .footer{
+    flex-direction: column;
+    height: 630px;
+    }
+}
