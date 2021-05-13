@@ -53,7 +53,7 @@ const Signin = () => {
           <title>Sign in Page</title>
         </Head>
 
-        <form className="mx-auto my-4" style={{maxWidth: '500px'}} onSubmit={handleSubmit}>
+        {/* <form className="mx-auto my-4" style={{maxWidth: '500px'}} onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email address</label>
             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -68,10 +68,51 @@ const Signin = () => {
           
           <button type="submit" className="btn btn-dark w-100">Login</button>
 
-          <p className="my-2">
+          <p cla,ssName="my-2">
             You don't have an account? <Link href="/register"><a style={{color: 'crimson'}}>Register Now</a></Link>
           </p>
-        </form>
+        </form> */}
+        <section className="login-sec">
+            <div className="login-container">
+              {/* <Link to="/" className="back-to-home">Back to home</Link>
+              <p className="dont-account">Don't have an account? <Link to="/register" className="register">Register</Link></p> */}
+              <div className="red-logo">
+                
+                <h1>Arowdrops.in</h1>
+              </div>
+            <form onSubmit={handleSubmit} >
+              <div className="fields">
+                <input id="email"
+                  type="text"
+                  placeholder="Email"
+                  name="email"
+                   value={email} 
+                   onChange={handleChangeInput}/>
+                <label htmlFor="email">Email</label>
+                <span className="red-text">
+                  
+                </span>
+              </div>
+              <div className="fields">
+                <input id="password"
+                  type="password"
+                  placeholder="Password"
+                  name="password" 
+                  value={password} 
+                  onChange={handleChangeInput}/>
+                <label htmlFor="password">Password</label>
+              
+              </div>
+              <div className="forget">
+                <a href="/forgot">Forget Password</a>
+                <a href="/register">Don't have account</a>
+              </div>
+              <div className="signdiv">
+                <button type="submit" className="land-btn primary-btn">Sign In</button>
+              </div>
+            </form>
+            </div>
+            </section>
       </div>
     )
   }

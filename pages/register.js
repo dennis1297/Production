@@ -79,6 +79,80 @@ const Register = () => {
             Already have an account? <Link href="/signin"><a style={{color: 'crimson'}}>Login Now</a></Link>
           </p>
         </form>
+
+        <section className="register-sec">
+              <div className="register-container">
+                {/* <Link to="/" className="back-to-home">Back to Home</Link> */}
+                <div className="red-logo"></div>
+                <form onSubmit={handleSubmit} >
+                  <div className="fields">
+               
+                    <input
+               
+                      id="name"
+                      type="text"
+                      placeholder="Name"  
+                      name="name" value={name} onChange={handleChangeInput}
+                    
+                    />
+                    <label htmlFor="name">Name</label>
+  
+                  </div>
+                  <div className="fields">
+                    <input
+                    
+                      id="email"
+                      type="text"
+                      placeholder="Email"
+                      name="email" value={email} onChange={handleChangeInput}
+                    
+                    />
+                    <label htmlFor="email">Email</label>
+                
+                  </div>
+                  <div className="fields">
+                    <input
+                
+                      id="password"
+                      type="password"
+                      placeholder="password"
+                      name="password" value={password} onChange={handleChangeInput}
+                     
+                    />
+                    <label htmlFor="mobile">password</label>
+                   
+                  </div>
+                  <div className="fields">
+                    <input
+                 
+                      id="cf_password"
+                      type="cf_password"
+                      placeholder="Confirm Password"
+                      name="cf_password" value={cf_password} onChange={handleChangeInput}
+                   
+                    />
+                    <label htmlFor="password">Confirm Password</label>
+                   
+                  </div>
+                  
+                  <div className="radio-grp">
+                    
+                      <label className="check-btn">Terms and conditions are applied.
+                        <input type="checkbox"  name="checkbox"  id="checkbox"
+                      type="checkbox"
+                     />
+                        
+                        <span className="checkboxmark"></span>
+                      </label>
+                      <p className="dont-account">Already have an acoount <Link href="/signinS" className="login">Login</Link> </p>
+                  </div>
+                  <div className="reg-btns">
+                    <button type="reset" className="cancel">Cancel</button>
+                    <button type="submit" className="primary-btn">Sign Up</button>
+                  </div>
+                </form>
+                </div>   
+            </section>   
       </div>
     )
   }

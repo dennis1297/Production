@@ -1,0 +1,269 @@
+.register-sec {
+    height: 100%;
+}
+.register-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.red-logo {
+    background: url("/images/logo-red.svg");
+    background-repeat: no-repeat;
+    width: 218px;
+    height: 50px;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.fields>input {
+    width: 354px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.fields {
+  position: relative;
+}
+.fields>label {
+  position: absolute;
+  font-size: 16px;
+  color: #747474;
+  top: 15px;
+  left: 20px;
+  pointer-events: none;
+  transition: all .1s ease-in-out;
+  display: none;
+}
+.fields>input:focus~label,
+.fields>input:valid~label {
+  color: #29a0cf;
+  top: -25px;
+  left: 0;
+  transition: all .1s ease-in-out;
+}
+.fields>.red-text {
+  color: red;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  top: 33px;
+  left: 15px;
+  pointer-events: auto;
+}
+/* .fields>.red-text {
+  display: none;
+  color: transparent;
+} */
+.fields input:focus~.red-text {
+  display: none;
+
+}
+.reg-btns {
+    display: flex;
+    margin-top: 10px;
+}
+.cancel,.signup {
+    width: 166px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cancel {
+    border: 1px solid red;
+    background: #fff;
+}
+.primary-btn {
+    border: none;
+    background-color: rgb(33, 243, 156);
+    margin-left: 20px;
+}
+.primary-btn:hover {
+  box-shadow: 1px 1px 5px rgb(0, 0, 0,0.6);
+}
+.radio-btn {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .radio-btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  .radio-btn:hover input ~ .checkmark {
+    background: #fff;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0,0.6);
+  }
+  .radio-btn input:checked ~ .checkmark {
+    background: #fff;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .radio-btn input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .radio-btn .checkmark:after {
+      top: 3px;
+      left: 3px;
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background-color: rgb(33, 243, 156);
+  }
+
+  /*checkbox*/
+  
+.check-btn {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .check-btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkboxmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+  }
+  .check-btn:hover input ~ .checkboxmark {
+    background-color: #fff;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0,0.5);
+  }
+  .check-btn input:checked ~ .checkboxmark {
+    background-color: rgb(33, 243, 156);
+    border: none;
+  }
+  .checkboxmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .check-btn input:checked ~ .checkboxmark:after {
+    display: block;
+  }
+  .check-btn .checkboxmark:after {
+    left: 7px;
+    top: 3px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .dont-account {
+    font-size: 16px;
+    font-weight: 400;
+    color: #747474;
+    margin-top: 10px;
+    margin-right: 6px;
+    text-align: right;
+  }
+  .login {
+    color: #29a0cf;
+    text-decoration: underline;
+  }
+  .checkbox-require {
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+  }
+
+  .loader:empty {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    border: 1.1em solid rgba(0, 0, 0, 0.2);
+    border-left: 1.1em solid #000000;
+    border-radius: 50%;
+    animation: load8 1.1s infinite linear;
+    z-index: 1000;
+  }
+  
+  @keyframes load8 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media only screen and (max-width: 1023px) { 
+    .fields>input {
+      width: 250px;
+      height: 40px;
+      margin-bottom: 8px;
+    }
+    .dont-account {
+      display: flex;
+      margin-top: 0;
+      margin-right: 0;
+    }
+    .login {
+      margin-left: 10px;
+    }
+  }

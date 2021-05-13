@@ -29,6 +29,9 @@ img{
 @import url("./products_manager.css");
 
 @import url("./footer.css");
+@import url("./sigin.css");
+@import url("./register.css");
+
 
 .header{
   height: 60px;

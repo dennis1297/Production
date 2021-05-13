@@ -1,0 +1,140 @@
+.login-sec {
+    height: 100vh;
+}
+.login-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.red-logo {
+    background: url("");
+    background-repeat: no-repeat;
+    width: 218px;
+    height: 50px;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.fields>input {
+    width: 354px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+.fields>input:focus::placeholder {
+    color: transparent;
+}
+.forget {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.forget>a {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 400;
+    color: #29a0cf;
+}
+.signdiv {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.primary-btn {
+    width: 166px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(98, 62, 255);
+}
+.primary-btn:hover {
+    box-shadow: 1px 1px 5px rgb(0, 0, 0,0.6);
+  }
+.fields {
+    position: relative;
+}
+.fields>label {
+    position: absolute;
+    font-size: 14px;
+    color: #747474;
+    top: 15px;
+    left: 20px;
+    display: none;
+}
+.fields>input:focus~label {
+    display: flex;
+    color: #000;
+    top: -10px;
+    left: 10px;
+    background: #fff;
+    padding: 0 8px;
+    transition: ease-in-out 2ms;
+}
+
+@media only screen and (max-width: 1023px) { 
+    .fields {
+        align-items: center;
+    }
+    .fields>input {
+      width: 250px;
+      height: 40px;
+      margin-bottom: 8px;
+    }
+    .fields>input,.radio-btn,.check-btn,.dont-account,.primary-btn,
+    .cancel,.forget>a {
+        font-size: 14px;
+    }
+    .fields>.red-text,.checkbox-require {
+        font-size: 10px;
+    }
+    .fields>.red-text {
+        top: 29px;
+    }
+    .radio-btn,.check-btn {
+        padding-left: 35px;
+    }
+    .checkmark,.checkboxmark {
+        width: 19px;
+        height: 19px;
+    }
+    .radio-btn .checkmark:after {
+        width: 10px;
+        height: 10px;
+    }
+    .check-btn .checkboxmark:after {
+        width: 4px;
+        height: 10px;
+    }
+    .radio-grp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+    }
+    .reg-btns {
+        width: 100%;
+        justify-content: center;
+    }
+    .cancel, .signup,.primary-btn {
+        width: 100px;
+        height: 40px;
+    }
+    .red-logo {
+        width: 120px;
+        height: 35px;
+        margin-bottom: 10px;
+    }
+  }
